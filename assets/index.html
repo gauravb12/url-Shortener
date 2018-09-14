@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>URL Shortener</title>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="/script.js"></script>
+	</head>
+
+	<body style="background-color: #F5F4F4; text-align: center;">
+		<h3>Shorten URL</h3>
+
+		<div class="row" style="padding-top: 10%;">
+		<div class="col s6 offset-s3">
+	    <form id="formShortenUrl">
+	            
+	      <div class="row">
+	        <div class="input-field col s12">
+	          <input id="urlInput" type="url" class="validate" required>
+	          <label for="urlInput">Enter the URL to shorten</label>
+	        </div>
+	        <button class="btn waves-effect waves-light" type="submit" name="action">Shorten</button>
+	      </div>
+	      
+	    </form>
+
+	    <div class="input-field col s12" hidden="true" id="resDiv">
+          <p align="left">Shortened URL:</p>
+          <input id="sres" type="text">
+          <input type="button" class="btn waves-effect waves-light" onclick="copyLink()" value="Copy Link" name="action" id="btnCopyLink">
+        </div>
+
+        <p id="err"></p>
+
+		</div>
+		</div>
+	</body>
+</html>
