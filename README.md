@@ -17,7 +17,7 @@ To install and run the application first install Node.JS and then proceed as,
 
 - Open `http://localhost:3000` in your browser to see the homepage of urlShortener.
 
-- Enter any URL in the field and click the `SHORTEN` button. The corresponding shortened URL will be displayed below. Click `COPY LINK` to copy the new URL. You can test this in new tab to be redirecting to the previously input URL.
+- Enter any URL in the field and click the `SHORTEN` button. The corresponding shortened URL will be displayed below. Click `COPY LINK` to copy the new URL. You can test this in new tab to be redirecting to the previously input URL. Screenshots are provided below.
 
 <br/> <br/>
 
