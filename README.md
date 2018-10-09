@@ -7,7 +7,7 @@ This application uses Node.JS, Express.JS and dependent modules. No database, bu
 
 To install and run the application first install Node.JS and then proceed as,
 
-- Clone the repository in your machine <br/>
+- Clone the repository in your Machine <br/>
 `git clone https://github.com/gauravb12/url-Shortener.git`
 
 - Move into the project directory and install the depenedencies. Run <br/>
