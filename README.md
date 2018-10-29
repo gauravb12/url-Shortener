@@ -5,7 +5,7 @@ URL Shortener is a web application, aimed at shortening URLs. It inputs URLs and
 
 This application uses Node.JS, Express.JS and dependent modules. No database, but files have been used to store the URLs and their corresponding alternates. 
 
-To install and run the application first install Node.JS and then proceed as,
+To install and run the application first install Node.JS and then proceed as follows:
 
 - Clone the repository in your machine <br/>
 `git clone https://github.com/gauravb12/url-Shortener.git`
